@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Task_1
 {
-    internal interface Interface1
+    public interface IReproducible
     {
+        void Reproduce();
     }
 }

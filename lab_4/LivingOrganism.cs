@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace Task_1
 {
-    internal class LivingOrganism
+    public class LivingOrganism
     {
+        public int Enegry {  get; set; }
+        public int Age {  get; set; }
+        public int Size {  get; set; }
+
+        public LivingOrganism(int enegry, int age, int size)
+        {
+            Enegry = enegry;
+            Age = age;
+            Size = size;
+        }
     }
 }
